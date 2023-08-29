@@ -8,8 +8,7 @@ int main(void)
 
   c = 54;
   d = 24;
-  ft_swap(&c, &d);
+  ft_swap(&c);
   printf("%d\n", c);
-  printf("%d\n", d);
   return (0);
 }
